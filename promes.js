@@ -26,9 +26,9 @@ fetch('url')
 
 //
 
-async function loadData(){
+async function loadData() {
     const res = await fetch('url');
-    const data =await res.json();
+    const data = await res.json();
     console.log(data)
 }
 // loadData()
